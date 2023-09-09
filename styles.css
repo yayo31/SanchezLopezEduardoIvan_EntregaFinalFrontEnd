@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    padding: 15px 0;
+}
+
+header .container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+main .container{
+    gap: 150px;
+    padding: 100px 0;
+}
+
+.icono_hamburg {
+    display: none;
+}
+
+.nav_header{
+    display:flex;
+    justify-content: space-around;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: end;
+}
+
+.description p{
+    margin-top: 15px;
+    font-size: 1em;
+}
+
+.description h2{
+    font-size: 3em;
+    line-height: 1em;
+}
+/* .description a{
+    background-color: blueviolet;
+    color: white;
+    padding: 0.5em 2em;
+    border-radius: 100px;
+    align-self: flex-end; 
+} */
+
+ul {
+    display: flex;
+    gap: 2em;
+}
+
+header .btn_contact{
+    font-size:1.1em;
+}
+
+.btn_contact{
+    background-color: blueviolet;
+    color: white;
+    padding: 0.5em 2em;
+    border-radius: 100px;
+    align-self: flex-end; 
+}
+
+.segundaSection{
+    background-color: blueviolet;
+    padding: 70px 40px; 
+}
+
+.segundoContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;  
+    display: flex;
+    align-items: center;
+}
+
+.segundoContainer h2{
+    font-size: 26px;
+    color: white;
+    width: 50%;
+    text-align: left;
+    padding: 0 100px;
+}
+
+.segundoContainer p{
+    color: white;
+    width: 50%;
+}
+
+.cards{
+    background-color: rgb(247, 243, 243);
+    text-align: center;
+}
+
+.cards h3{
+    margin-left: 30px;
+    font-size: 20px;
+    padding: 10px 12px 0 0;
+}
+
+.cards p{
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cuartoContainer .cards{
+    gap: 15px;
+}
+
+.cuartoContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.beneficios{
+    background-color: rgb(247, 243, 243); 
+    padding: 10px 0;
+}
+
+.cabezeraCards{
+    display: flex;
+    align-items: center;
+}
+
+.beneficiosCards{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.contenidoClase{
+    padding: 0 50px;
+}
+
+.numero{
+    background-color: blueviolet;
+    width: 50px;
+    text-align: center;
+    border-radius: 100px;
+    color: white; 
+}
+
+.beneficiosCards h3{
+    margin-left: 30px;
+}
+
+beneficiosCards p{
+
+}
+
+
+.tenistas .best{
+    background-color: rgb(247, 243, 243);
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 50px 0;
+}
+
+.tenistas{
+    gap:15px;
+}
+
+.moreButton{
+    background-color: blueviolet;
+    color: white;
+    padding: 0.5em 2em;
+    border-radius: 100px;
+    align-self: flex-end;
+    text-align: left;    
+    
+}
+
+.more{
+    display: flex;
+    padding: 120px 120px;
+    flex-direction: row;
+    text-align: left;
+    display: inline-block
+}
+
+.tenistas{
+    background-color: rgb(247, 243, 243);
+}
+
+.tercerSection{
+    background-color: blueviolet;
+    padding: 50px 140px;
+    
+}
+
+.tercerConteiner{
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    display: flex;
+}
+
+.tercerConteiner h2{
+    width: 40%;
+    color: white;
+}
+
+.tercerConteiner{
+    width: 100%;
+}
+
+.goForIT{
+    background-color: white;
+    color: black;
+    padding: 0.5em 2em;
+    border-radius: 100px;
+    align-self: flex-end; 
+}
+
+footer{
+    background-color: black;
+    padding: 100px;
+}
+
+footer .containerFooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .sociales{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+footer li{
+    color: white;
+}
+
+footer nav{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 500px;
+}    
+
+footer ul{
+    flex-direction: column;
+}
+
+input{
+    
+    padding: 12px 25px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    
+}
+
+.submit{
+    color: white;
+    background-color: blueviolet;
+}
+
+.containerCopy p{
+    color: rgb(197, 197, 197);
+    text-align: end;
+    font-size: 12px;
+}
+
+@media(max-width: 600px){
+    header{
+        padding: 15px 0;
+    }
+
+
+header .container{
+    max-width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+main .container {
+    gap: 50px;
+    text-align: end;
+}
+
+.icono_hamburg {
+    display: block;
+}
+
+.nav_header{
+    display: none;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.description p{
+    margin-top: 15px;
+    
+}
+
+.description h2{
+    font-size: 2em;
+    line-height: 1em;
+}
+
+header .btn_contact{
+    display: none;
+}
+
+.btn_contact{
+    background-color: blueviolet;
+    color: white;
+    padding: 0.5em 2em;
+    border-radius: 100px;
+    align-self: flex-end; 
+}
+
+.segundaSection{
+    background-color: rgb(0, 204, 255);
+    padding: 50px 0;
+}
+
+.segundoContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;  
+}
+
+.segundoContainer h2{
+    font-size: 26px;
+    color: white;
+    width: 100%;
+    text-align: left;
+    padding: 0;
+}
+
+.segundoContainer p{
+    color: white;
+    width: 100%;
+}
+
+.beneficiosCards .cabezeraCards{
+    flex-flow: row wrap;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.cabezeraCards{
+    display: flex;
+    align-items: center;
+    background-color: rgb(204, 185, 219)
+}
+
+.cards{
+    background-color: rgb(247, 243, 243);
+    text-align: center;
+}
+
+.cards h3{
+    margin-left: 30px;
+    font-size: 20px;
+    padding: 10px 12px 0 0;
+}
+
+.cards p{
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#sanyo{
+    display: none;
+}
+
+#navarro{
+    display: none;
+}
+
+.tercerSection{
+    background-color: rgb(0, 204, 255);
+    padding: 50px 100px;
+}
+
+.tercerConteiner{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    display: flex;
+}
+
+.tercerConteiner h2{
+    width: 100%;
+    text-align: center; 
+    font-size: 28px;
+}
+
+.tercerConteiner a{
+    width: 38%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.goForIT{
+    background-color: rgb(2, 2, 104);
+    color: white;
+    padding: 0.5em 2em;
+    border-radius: 100px;
+    align-self: center; 
+}
+
+footer .containerFooter{
+    flex-direction: column-reverse;
+    gap:50px;
+}
+
+footer .sociales{
+    display: flex;
+    flex-direction: column-reverse;
+    gap:50px;
+    margin: 0 80px;
+}
+
+ .sociales{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer img{
+    width:150px;
+}
+
+footer .iconos{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .iconos img{
+    width:30px;
+    justify-content: space-around;
+}
+
+.copy{
+    margin: 50px 0 ;
+}
+
+.containerCopy{
+    display: flex;
+    text-align: center;
+    margin: 0 50px;
+}
+
+
+}
+
+
+
+
+
+
